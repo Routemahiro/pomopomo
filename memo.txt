@@ -1,0 +1,18 @@
+pomodoro_timer_app/
+│
+├── app.py  # アプリケーションのエントリーポイント
+│
+├── model/  # データモデルとビジネスロジック
+│   ├── timer_model.py  # タイマーの状態と設定情報を管理
+│   └── settings_manager.py  # ユーザー設定の保存と読み込みを担当
+│
+├── view/  # ユーザーインターフェース
+│   ├── settings_window.py  # 設定画面UI
+│   └── main_window.py  # メインウィンドウUI
+│
+├── controller/  # モデルとビューの制御
+│   └── timer_controller.py  # ユーザー入力に基づく制御ロジック
+│
+└── utils/  # ユーティリティとヘルパー関数
+    ├── notification_manager.py  # 通知機能管理
+    └── settings.json  # ユーザー設定ファイル（オプショナル
