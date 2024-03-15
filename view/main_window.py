@@ -8,7 +8,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"E:\program\pomodoro\build\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path("img\main_window")
 
 
 def relative_to_assets(path: str) -> Path:
@@ -57,7 +57,7 @@ start.place(
 )
 
 canvas.create_text(
-    51.0,
+    114.0,
     32.0,
     anchor="nw",
     text="25:00",
